@@ -1,0 +1,185 @@
+/*
+Trabajo practico 4 "Creacion de tu sitio propio"
+
+Finalidad de sitio: "MMORPG" 
+
+Orientado: League Of Legends
+
+Agustin Saravia
+
+*/
+
+/*reset*/
+
+*{
+    margin:0;
+    padding:0;
+    border:none;
+    box-sizing: border-box;
+    outline:none;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/* setting: body-main-html*/
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Rubik","Gill Sans", "Gill Sans MT", "Calibri","sans-serif";
+}
+
+/* setting: scroll*/
+body::-webkit-scrollbar{
+    background: #000000;
+    width: 4px;
+}
+
+body::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background: #f70000;
+}
+
+/* setting general*/
+
+h1{
+    color: #fff;
+    font-size: 60px;
+    font-family: "Rubik","Gill Sans", "Gill Sans MT", "Calibri","sans-serif";
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+h3, h2{
+    color: rgb(221, 216, 216);
+    font-size: 60px;
+    font-family: "Rubik","Gill Sans", "Gill Sans MT", "Calibri","sans-serif";
+    text-transform: uppercase;
+}
+
+h6{
+    color: rgb(221, 216, 216);
+    font-size: 30px;
+    font-family: "Rubik","Gill Sans", "Gill Sans MT", "Calibri","sans-serif";
+    text-transform: uppercase;
+}
+
+p{
+    color: #fff;
+    font-weight:300;
+    border-left: #f70000 4px solid;
+    background-color: #161616;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+span{
+    color: #f70000;
+}
+
+
+/*class button*/
+
+/*button one*/
+.btn{
+    font-family:"Rubik","Gill Sans", "Gill Sans MT", "Calibri","sans-serif";
+    font-size: 15px;
+    border: 2px solid #f70000;
+    color:#f70000;
+    text-transform: uppercase;
+    margin-left: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    -webkit-transform: skew(-7deg);
+    -ms-transform: skew(-7deg);
+    transform: skew(-7deg);
+}
+
+.btn:active{
+    color:#f70000;
+}
+
+.btn:visited{
+    color: #f70000;
+}
+
+
+/*button two*/
+.btn-light{
+    font-family:"Rubik","Gill Sans", "Gill Sans MT", "Calibri","sans-serif";
+    font-size: 15px;
+    border: 2px solid #f70000;
+    color:#fff;
+    background: #f70000;
+    text-transform: uppercase;
+    margin-left: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    -webkit-transform: skew(-7deg);
+    -ms-transform: skew(-7deg);
+    transform: skew(-7deg);
+
+}
+
+.btn-light:active{
+    color:#fff;
+
+
+}
+
+.btn-light:visited{
+    color: #fff;
+}
+
+.btn-light:hover{
+    color:#f70000;
+    border: 2px solid #f70000;
+    background: transparent;
+    transition: 0.3s;
+}
+
+
+/* button three */
+.btn-square{
+    font-family:"Rubik","Gill Sans", "Gill Sans MT", "Calibri","sans-serif";
+    font-size: 15px;
+    border: 2px solid #f70000;
+    color:#f70000;
+    text-transform: uppercase;
+    margin-left: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+
+.btn-square:hover{
+    color:#f70000;
+    border: 2px solid #f70000;
+    background: transparent;
+    transition: 0.2s;
+}
+
+/* text highlighter on web */
+
+::selection {
+    background: #f70000; 
+  }
+  ::-moz-selection {
+    background: #f70000; 
+  }

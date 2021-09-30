@@ -1,0 +1,125 @@
+/* Reutilizando el formulario del ejercicio 2 de css, y adaptandolo a la nueva web */
+
+form{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+label{
+    font-family: "Rubik","Gill Sans", "Gill Sans MT", "Calibri","sans-serif";
+    font-size: 12px;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing:1px
+}
+
+input[type=text], input[type=email], input[type=tel], input[type=url], input[type=date], input[type=password]{
+    background: #161616;
+    color: aliceblue;
+    padding-top: 15px;
+    padding-left: 3cm;
+    padding-right: 3cm;
+    padding-bottom: 15px;
+    margin-top:15px;
+    border:2px solid #161616;
+  }
+  .terminos{
+    margin-left: 15px;
+    color: #fff;
+}
+
+.terminos_link{
+    color:#f70000;
+}
+  .terminos_link a:visited{
+      color: #f70000;
+  }
+
+  .terminos_link a:active{
+    color: #f70000;
+}
+
+input[type=submit] {
+    font-family: "Rubik","Gill Sans", "Gill Sans MT", "Calibri","sans-serif";;
+    font-weight: bold;
+    background: none;
+    padding-right:3.6cm;
+    padding-left: 3cm;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border:2px solid #f70000;
+    color: aliceblue;
+    text-transform: uppercase;
+  }
+
+input[type=text]:focus {
+    outline: none;
+    background-color: #161616;
+    border-bottom: 2px solid #f70000;
+}
+
+input[type=email]:focus {
+    outline: none;
+    background-color: #161616;
+    border-bottom: 2px solid #f70000;
+}
+
+input[type=password]:focus {
+    outline: none;
+    background-color: #161616;
+    border-bottom: 2px solid #f70000;
+}
+
+input[type=tel]:focus {
+    outline: none;
+    background-color: #161616;
+    border-bottom: 2px solid #f70000;
+}
+
+
+input[type=url]:focus {
+    outline: none;
+    background-color: #161616;
+    border-bottom: 2px solid #f70000;
+}
+
+input[type=date]:focus {
+    outline: none;
+    background-color: #161616;
+    border-bottom: 2px solid #f70000;
+}
+
+input[type=submit]:hover {
+    font-family: "Rubik","Gill Sans", "Gill Sans MT", "Calibri","sans-serif";;
+    font-weight: bold;
+    background: #f70000;
+    padding-right:3.6cm;
+    padding-left: 3cm;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border:2px solid #f70000;
+    color: aliceblue;
+    text-transform: uppercase;
+    transition: 0.3s;
+  }
+
+  /* php connection style */
+
+#account_created{
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #1e6;
+	color: #fff;
+    font-size: 20px;
+}
+
+#account_denied{
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #f70000;
+	color: #fff;
+    font-size: 20px;
+}
